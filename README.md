@@ -15,7 +15,7 @@ We will look into:
     Connections are created through the module's connect() function
 
 ## .cursor()
-    .cursor allows us to execute read only queries on the database.
+    .cursor() returns a new Cursor object using the connection.
     The Cursor object represents a database cursor, which is typically used to manage the context of a fetch operation.
 
 ## .cursor().execute()

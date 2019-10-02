@@ -50,13 +50,16 @@ class ConnectMsS():
         # The Cursor cannot make transaction (go to documentation)
     # Read all entries
         # Fetch all records and return as a list of dictionaries
+
     # Read one entry
         # Fetch a specific record
         # Get one value using ID
+
     # Update 1 entry
         # The ID of the record to update
         # Update the specific record
             # The cursor cannot make transaction (go to documentation)
+
     # Destroy 1 entry
         # The ID of the specific record
         # Destroy the record
