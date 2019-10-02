@@ -20,7 +20,7 @@ print(len(rows),'\n')
 
 #query3
 print('Question 3')
-    rows = cursor.execute("SELECT * FROM Orders WHERE ShipCity = 'Rio de Janeiro' OR ShipCity = 'Reims'").fetchall()
+rows = cursor.execute("SELECT * FROM Orders WHERE ShipCity = 'Rio de Janeiro' OR ShipCity = 'Reims'").fetchall()
 for row in rows:
     print(row)
 
